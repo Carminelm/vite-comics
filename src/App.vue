@@ -1,5 +1,6 @@
 <script>
 import AppHeader from './components/header/AppHeader.vue';
+import MainJumbotron from './components/main/MainJumbotron.vue';
 import MainNavbar from './components/main/MainNavbar.vue';
 
 
@@ -8,6 +9,7 @@ import MainNavbar from './components/main/MainNavbar.vue';
 export default {
   components: {
     AppHeader,
+    MainJumbotron,
     MainNavbar,
   }
 }
@@ -24,8 +26,6 @@ export default {
 
 
   <footer>
-    <FooterNavbar />
-    <FooterSocialLinks />
   </footer>
 </template>
 
